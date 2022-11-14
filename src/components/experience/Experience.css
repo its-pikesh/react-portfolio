@@ -1,6 +1,7 @@
 .experience__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 2rem;
 }
 
 .experience__container > div{
@@ -60,6 +61,7 @@
 @media screen and (max-width:600px) {
     .experience__container{
         gap: 1rem;
+        margin: 30px;
     }
 
 }
