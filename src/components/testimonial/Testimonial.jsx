@@ -17,13 +17,14 @@ const Testimonial = () => {
       avatar: AVTR1,
       name: "Adarsh Pawar",
       review:"I just wanted to share a quick note, I had a great experince working with Pikesh. I’m glad I decided to work with you. It’s really great how easy your websites are to update and manage. I never have any problem at all. ",
-      mention:"https://adarshpawar.com"
+      mention:"https://adarshpawar.com",
       },
     {
       avatar: AVTR2,
       name: "Arun Chaudhary",
-      review:
-        "Had a great experience wotking with pikesh in many hackathons and college projects, together we worked in capstone project which was really fun, we learnt alot while working together.",
+      review:"Had a great experience wotking with pikesh in many hackathons and college projects, together we worked in capstone project which was really fun, we learnt alot while working together.",
+      mention:"",
+
     },
   ];
 
@@ -48,7 +49,7 @@ const Testimonial = () => {
               </div>
               <h5 className="client__name">{name}</h5>
               <small className="client__review">{review}</small>
-              <small><a href="mention">Check My Profile</a></small>
+              {mention?<small><a href={mention} target="_blank">Checkout My Profile🚀</a></small>:""}
             </SwiperSlide>
           );
         })}

@@ -100,19 +100,17 @@
     .about__cards{
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
-        margin: 30px;
     }
     .about__image{
         height: 270px;
         width: 270px;
-    
     }
 
     .about__content{
         text-align: center;
     }
     .about__content p{
-        margin: 0 1.5rem 0;
+        margin-top: 2rem;
 
     }
 }
