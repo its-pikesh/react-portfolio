@@ -1,6 +1,7 @@
 import React from "react";
 import "./Experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+import {AiOutlineStar,AiFillStar} from 'react-icons/ai'
 
 const Experience = () => {
   return (
@@ -16,42 +17,42 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>React Js</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/><AiOutlineStar/></small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Angular Js</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"><AiFillStar/><AiFillStar/><AiFillStar/><AiOutlineStar/><AiOutlineStar/></small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/><AiOutlineStar/></small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/><AiOutlineStar/></small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/><AiOutlineStar/></small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Aurelia</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"><AiFillStar/><AiFillStar/><AiOutlineStar/><AiOutlineStar/><AiOutlineStar/></small>
               </div>
             </article>
           </div>
@@ -64,42 +65,42 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Javascript</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/><AiOutlineStar/></small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Node js</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/><AiOutlineStar/> </small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Express</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/><AiOutlineStar/></small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>MySql</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/><AiOutlineStar/></small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Docker</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/><AiOutlineStar/></small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Kubernetics</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"><AiFillStar/><AiFillStar/><AiFillStar/><AiOutlineStar/><AiOutlineStar/></small>
               </div>
             </article>
           </div>

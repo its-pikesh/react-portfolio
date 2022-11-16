@@ -1,49 +1,50 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "./Portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.jpg";
+// import IMG1 from "../../assets/GatsbyPortfolio.png";
+import IMG1 from "../../assets/portfolio1.png";
+import IMG2 from "../../assets/portfolio2.png";
+import IMG3 from "../../assets/portfolio3.png";
+import IMG4 from "../../assets/portfolio4.png";
+import IMG5 from "../../assets/portfolio5.png";
 
 const Portfolio = () => {
   const data = [
     {
       id: 1,
       image: IMG1,
-      title: "Crypto currency and financial visualization",
-      github: "https://github.com",
-      demo: "https://github.com",
+      title: "React Gatsby PortFolio",
+      github: "https://github.com/its-pikesh/portfolio",
+      demo: "https://resume-5fee1.firebaseapp.com/",
     },
     {
       id: 2,
       image: IMG2,
-      title: "Crypto currency and financial visualization",
-      github: "https://github.com",
-      demo: "https://github.com",
+      title: "NetFlix UI Clone react",
+      github: "https://github.com/its-pikesh/netflix-clone-react",
+      demo: "https://netflix-clone-react-c5973.web.app/",
     },
     {
       id: 3,
       image: IMG3,
-      title: "Crypto currency and financial visualization",
-      github: "https://github.com",
-      demo: "https://github.com",
+      title: "Live Covid 19 tracker",
+      github: "https://github.com/its-pikesh/covid-tracker",
+      demo: "https://covid-19-tracker-6e3fb.web.app/",
     },
     {
       id: 4,
       image: IMG4,
-      title: "Crypto currency and financial visualization",
-      github: "https://github.com",
-      demo: "https://github.com",
+      title: "Tesla UI clone react",
+      github: "https://github.com/its-pikesh/tesla-clone-react",
+      demo: "https://tesla-clone-react-9ccfa.web.app/",
     },
-    {
-      id: 5,
-      image: IMG5,
-      title: "Crypto currency and financial visualization",
-      github: "https://github.com",
-      demo: "https://github.com",
-    },
+    // {
+    //   id: 5,
+    //   image: IMG5,
+    //   title: "Crypto currency and financial visualization",
+    //   github: "https://github.com",
+    //   demo: "https://github.com",
+    // },
   ];
 
   return (
@@ -56,7 +57,7 @@ const Portfolio = () => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
-                <img src={image} alt={title} />
+                <img className="portfolio__image" src={image} alt={title} />
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">

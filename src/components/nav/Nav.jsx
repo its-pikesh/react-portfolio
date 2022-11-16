@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./Nav.css";
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser,AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
+import {  BsChatRightQuote } from "react-icons/bs";
 import { useState } from "react";
 
 const Nav = () => {
@@ -36,14 +36,14 @@ const Nav = () => {
         onClick={() => setactiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
       >
-        <RiServiceLine />
+        <AiOutlineFundProjectionScreen />
       </a>
       <a
         href="#contact"
         onClick={() => setactiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
-        <BiMessageSquareDetail />
+        <BsChatRightQuote />
       </a>
     </nav>
   );

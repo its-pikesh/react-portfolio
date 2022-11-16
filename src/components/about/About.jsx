@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "./About.css";
-import ME2 from "../../assets/me2.png";
+// import ME2 from "../../assets/me2.png";
+import ME2 from "../../assets/about.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";

@@ -13,7 +13,11 @@
     border-radius: 50%;
     margin: 0 auto 1rem;
     border: 0.4rem solid var(--color-primary-variant);
+}
 
+.client__avt{
+    height: 50px;
+    width: 50px;
 }
 
 .testimonial{
@@ -42,8 +46,6 @@
 @media screen and (max-width:600px) {
     .container.testimonial__container{
         width: var(--container-width-sm);
-        margin-left: 30px;
-        margin-right: 30px;
     }
     .client__review{
         width: var(--container-width-sm);

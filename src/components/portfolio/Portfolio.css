@@ -31,6 +31,11 @@
     gap: 1rem;
     margin-bottom: 1rem;
  }
+ .portfolio__image{
+    max-height: 360px;
+    max-width: 290px;
+
+ }
 
  /* Media Queries (Medium devices) */
 @media screen and (max-width:1024px) {
@@ -45,10 +50,14 @@
     .portfolio__container{
         grid-template-columns: 1fr;
         gap: 1rem;
-        margin-left: 30px;
-        margin-right: 30px;
     }
     .portfolio__item-image{
-        align-items: center;
+        width:fit-content;
+        background: black;
     }
+    .portfolio__item-cta{
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
+     }
 }

@@ -28,21 +28,21 @@ const Footer = () => {
           <a href="#portfolio">PortFolio</a>
         </li>
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#testimonial">Testimonials</a>
         </li>
         <li>
-          <a href="#contact">Contace</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com">
+        <a href="https://facebook.com/pikesh1212" target="_blank" >
           <FaFacebook />
         </a>
-        <a href="https://instagram.com">
+        <a href="https://instagram.com/pikesh1212" target="_blank">
           <FiInstagram />
         </a>
-        <a href="https://linkedin.com">
+        <a href="https://linkedin.com/in/its-pikesh" target="_blank">
           <BsLinkedin />
         </a>
       </div>

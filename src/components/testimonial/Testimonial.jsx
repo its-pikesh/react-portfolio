@@ -1,7 +1,7 @@
 import React from "react";
 import "./Testimonial.css";
-import AVTR1 from "../../assets/portfolio1.jpg";
-import AVTR2 from "../../assets/portfolio1.jpg";
+import AVTR1 from "../../assets/Adarsh.jpg";
+import AVTR2 from "../../assets/Arun.jpg";
 
 //impoer swiper core and required modules
 import { Pagination } from "swiper";
@@ -16,20 +16,20 @@ const Testimonial = () => {
     {
       avatar: AVTR1,
       name: "Adarsh Pawar",
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt optio hic maxime ipsa eius nesciunt quisquam quas, ad aliquam neque.",
-    },
+      review:"I just wanted to share a quick note, I had a great experince working with Pikesh. I’m glad I decided to work with you. It’s really great how easy your websites are to update and manage. I never have any problem at all. ",
+      mention:"https://adarshpawar.com"
+      },
     {
       avatar: AVTR2,
       name: "Arun Chaudhary",
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt optio hic maxime ipsa eius nesciunt quisquam quas, ad aliquam neque.",
+        "Had a great experience wotking with pikesh in many hackathons and college projects, together we worked in capstone project which was really fun, we learnt alot while working together.",
     },
   ];
 
   return (
     <section id="testimonial">
-      <h5>Review From Customer</h5>
+      <h5>Review From colleagues</h5>
       <h2>Testimonial</h2>
 
       <Swiper
@@ -40,14 +40,15 @@ const Testimonial = () => {
         slidesPerView={1}
         pagination={{ clickable: true }}
       >
-        {data.map(({ avatar, name, review }, index) => {
+        {data.map(({ avatar, name, review,mention }, index) => {
           return (
             <SwiperSlide key={index} className="testimonial">
               <div className="client__avatar">
-                <img src={avatar} alt={name} />
+                <img src={avatar} alt={name} className="client__avt" />
               </div>
               <h5 className="client__name">{name}</h5>
               <small className="client__review">{review}</small>
+              <small><a href="mention">Check My Profile</a></small>
             </SwiperSlide>
           );
         })}
